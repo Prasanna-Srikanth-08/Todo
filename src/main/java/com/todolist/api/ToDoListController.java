@@ -28,7 +28,7 @@ public class ToDoListController {
     }
 
     @PostMapping("/add")
-    public String addTask(@Valid @RequestBody ToDoListDto toDoListDto) {
+    public ToDoListDto addTask(@Valid @RequestBody ToDoListDto toDoListDto) {
         return toDoListService.addTask(toDoListDto);
     }
 

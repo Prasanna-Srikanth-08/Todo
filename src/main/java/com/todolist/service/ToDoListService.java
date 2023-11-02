@@ -9,7 +9,7 @@ import java.util.List;
 @Service
 public interface ToDoListService {
     List<ToDoListDto> fetchAllTasks();
-    String addTask(ToDoListDto toDoListDto);
+    ToDoListDto addTask(ToDoListDto toDoListDto);
     ToDoListDto modifyTask(ToDoListDto updatedToDoList);
     String deleteTask(Integer id);
 }
