@@ -55,7 +55,7 @@ Response :-
 ]
 
 
-1. Add task :-
+2. Add task :-
 
 Add Api is used to add task to the db.
 
@@ -90,7 +90,7 @@ Request Body:-
 }
 
 
-1. Modify Task:-
+3. Modify Task:-
 
 Api which is used to modify the data which is available in database. We need to pass the changes of the field as below.
 
@@ -125,7 +125,7 @@ Response:-
 }
 
 
-1. Delete Task:-
+4. Delete Task:-
 
 Delete Api is used to delete the task from database.
 
