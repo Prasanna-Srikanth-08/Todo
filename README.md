@@ -1,4 +1,4 @@
-﻿``Todo API Documentation
+﻿`Todo API Documentation
 
 
 The Todo Application is a basic Java and Springboot project that uses a MongoDB database. After installing and creating the database, frontend applications can use the application endpoint.
@@ -19,7 +19,7 @@ Default port of application is set to 8080 in localhost and if user wants to cha
 
 API’s:-
 
-1. ``Fetch todo tasks:-
+1. `Fetch todo tasks:-
 
 Fetch api is used to retrieve list of all tasks added to the database.
 
@@ -32,25 +32,25 @@ Response :-
 
 [
 
-``{
+`{
 
-`        `"id": 1,
+`"id": 1,
 
-`        `"task": "Learn react",
+`"task": "Learn react",
 
-`        `"description": "Complete course and clear certification"
+`"description": "Complete course and clear certification"
 
-``},
+`},
 
-`    `{
+`{
 
-`        `"id": 3,
+`"id": 3,
 
-`        `"task": "Learn java",
+`"task": "Learn java",
 
-`        `"description": "Complete course and clear certification"
+`"description": "Complete course and clear certification"
 
-`    `},
+`},
 
 ]
 
@@ -63,29 +63,29 @@ url:-
 
 
 
-`	`[http://localhost:8080/todo/add]()
+`[http://localhost:8080/todo/add]()
 
-`	`Request Body:-
+`Request Body:-
 
-`	`{
+`{
 
-`    		`"id":10,
+`"id":10,
 
-`    		`"task":"Book tickets",
+`"task":"Book tickets",
 
-`    		`"description":"Book a movie ticket before all tickets gets sold out"
+`"description":"Book a movie ticket before all tickets gets sold out"
 
 }
 
-`	`Response:-
+`Response:-
 
-`	`{
+`{
 
-`    		`"id": 10,
+`"id": 10,
 
-`    		`"task": "Book tickets",
+`"task": "Book tickets",
 
-`    		`"description": "Book a movie ticket before all tickets gets sold out"
+`"description": "Book a movie ticket before all tickets gets sold out"
 
 }
 
@@ -104,11 +104,11 @@ Request Body:-
 
 {
 
-`   		 `"id":10,
+ `"id":10,
 
-`    		`"task":"Book Movie tickets",
+`"task":"Book Movie tickets",
 
-`    		`"description":"Book a movie ticket before all tickets gets sold out"
+`"description":"Book a movie ticket before all tickets gets sold out"
 
 }
 
@@ -116,11 +116,11 @@ Response:-
 
 {
 
-`    		`"id":10,
+`"id":10,
 
-`    		`"task":"Book Movie tickets",
+`"task":"Book Movie tickets",
 
-`    		`"description":"Book a movie ticket before all tickets gets sold out"
+`"description":"Book a movie ticket before all tickets gets sold out"
 
 }
 
